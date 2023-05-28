@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Loading */
+
+@keyframes ldio-xous80q7cfk-1 {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(-45deg) }
+    100% { transform: rotate(0deg) }
+}
+@keyframes ldio-xous80q7cfk-2 {
+    0% { transform: rotate(180deg) }
+    50% { transform: rotate(225deg) }
+    100% { transform: rotate(180deg) }
+}
+.ldio-xous80q7cfk > div:nth-child(2) {
+    transform: translate(-15px,0);
+}
+.ldio-xous80q7cfk > div:nth-child(2) div {
+    position: absolute;
+    top: -55px;
+    margin-left: -25px;
+    width: 120px;
+    height: 60px;
+    border-radius: 120px 120px 0 0;
+    background:  #f8b26a;
+    animation: ldio-xous80q7cfk-1 1s linear infinite;
+    animation-fill-mode: forwards;
+    transform-origin: 60px 60px;
+}
+.ldio-xous80q7cfk > div:nth-child(2) div:nth-child(2) {
+    animation: ldio-xous80q7cfk-2 1s linear infinite;
+}
+.ldio-xous80q7cfk > div:nth-child(2) div:nth-child(3) {
+    transform: rotate(-90deg);
+    animation: none;
+}@keyframes ldio-xous80q7cfk-3 {
+    0% { transform: translate(190px,0); opacity: 0 }
+    20% { opacity: 1 }
+    100% { transform: translate(70px,0); opacity: 1 }
+}
+.ldio-xous80q7cfk > div:nth-child(1) {
+    display: block;
+}
+
+.ldio-xous80q7cfk > div:nth-child(1) div {
+    position: relative;
+    border-radius: 50%;
+    border: 4px solid ;
+    color:green;
+    animation: ldio-xous80q7cfk-3 1s linear infinite;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1; 
+    opacity: 0.9;               
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation-fill-mode: forwards;
+}
+.ldio-xous80q7cfk > div:nth-child(1) div:nth-child(1) { animation-delay: -0.67s }
+.ldio-xous80q7cfk > div:nth-child(1) div:nth-child(2) { animation-delay: -0.33s }
+.ldio-xous80q7cfk > div:nth-child(1) div:nth-child(3) { animation-delay: 0s }
+.loadingio-spinner-bean-eater-fy1cldhrzxn {
+    overflow: hidden;
+    background: #ffffff;
+}
+.ldio-xous80q7cfk {
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    opacity: 0.9;               
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation: disappear 5s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+@keyframes disappear {
+    0% {
+    opacity: 0.9;
+    visibility: visible;
+    }
+    100% {
+    opacity: 0;
+    visibility: hidden;
+    }
+}
+.ldio-xous80q7cfk div { box-sizing: content-box; }
+
+
+
+header {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+    padding: 0.2rem;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main .ville {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main .ville i {
+    font-size: 1.5rem;
+}
+
+.explorer{
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #F6F6F6;
+    width: 100%;
+    padding: 2rem 0rem 5rem;
+}
+
+.explorer h2{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.explorer p{
+    color:grey;
+}
+
+.explorer button{
+    color:white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    border-radius: 2rem;
+    box-shadow: 2px 0px 10px -3px #000000;
+    background-image: linear-gradient(to top, rgb(147, 86, 220, 0.9), rgb(255, 121, 218 , 0.9));
+    transition: transform 200ms;
+    cursor: pointer;
+}
+.explorer.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+    transform: scale(1.02); 
+    box-shadow: 2px 0px 16px -3px #000000;
+}
+
+.tuto h2{
+    padding: 2rem;
+}
+.tuto ol{
+    display: flex;
+    gap: 2rem;
+    padding: 0rem 2rem 2rem 2rem;
+}
+@media (min-width:320px) and (max-width:767px){
+    .explorer h2{
+        flex-direction: column;
+        width:100%;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .explorer p{
+        flex-direction: column;
+        width:100%;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .tuto ol{
+    flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .tuto ol{
+        flex-direction: column;
+    }
+}
+
+.tuto{
+    counter-reset: steps;
+}
+.tuto li{
+    position: relative;
+    list-style-type: none;
+    background-color: #f6f6f6;
+    padding: 1.5rem 2rem;
+    flex-grow: 1;
+    border-radius: 1rem ;
+    box-shadow: 2px 0px 8px -3px #000000;
+}
+.tuto li::before{
+    content: counter(steps);
+    counter-increment: steps;
+    color: white;
+    background-color: rgb(147, 86, 220, 0.9);
+    width: 1.5rem;
+    height:1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -10px;
+    position: absolute;
+}
+.function {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 16px 50px 16px;
+    justify-content: center;
+}
+.function .function--name{
+    padding:1rem;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.steps--article {
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    background: #F8F8F8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 4px 4px 6px #cbcbcb;
+    width:50%;
+}
+.steps--article:hover {
+    background-color: #F5EDFF;
+    box-shadow: 2px 2px 10px #a06be29a;
+
+    cursor: pointer;
+}
+.steps--article:hover .darkgray {
+    color: #9356DC;
+}
+.steps--article--name {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 40px;
+}
+.steps--number {
+    background: #9356DC;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    font-size: 14px;
+    margin-left: -11px;
+    color: white;
+}
+@media (min-width: 920px) and (max-width:1920px){
+    .steps {
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+    .steps--article {
+    width: 33%;
+    gap: 10px;
+    }
+    .steps--article--name {
+
+    font-size: 14px;
+    }
+    .steps--number {
+    padding-top: 3px;
+    }
+}
+@media (min-width:320px) and (max-width:450px){
+.steps--article {
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    background: #F8F8F8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 4px 4px 6px #cbcbcb;
+    width:100%;
+}
+}
+.white {
+    color: white;
+}
+
+.darkgray {
+    color: #808080;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.size {
+    font-size: 18px;
+}
+.restaurants{
+    background-color: #f2f2f2;
+    padding: 0rem 0rem 5rem 0rem;
+}
+.restaurants h2{
+    padding: 3rem 0rem 0rem 2rem;
+}
+.menus_cards{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-gap: 3rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+@media (min-width:320px) and (max-width:920px){
+    .menus_cards{
+        grid-template-columns: repeat(1, 1fr);
+}
+}
+
+.card_image-1{
+    background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    width:100%;
+    height: 300px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-size: cover;
+}
+.card_image-2{
+    background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    width:100%;
+    height: 300px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-size: cover;
+}
+.card_image-3{
+    background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    width:100%;
+    height: 300px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-size: cover;
+}
+.card_image-4{
+    background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    width:100%;
+    height: 300px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-size: cover;
+}
+@media (min-width:320px) and (max-width:560px){
+    .card_image-1{
+    height:200px;
+    }
+}
+@media (min-width:320px) and (max-width:560px){
+    .card_image-2{
+    height:10rem;
+    }
+}
+@media (min-width:320px) and (max-width:560px){
+    .card_image-3{
+    height:10rem;
+    }
+}
+@media(min-width:320px) and (max-width:560px){
+    .card_image-4{
+    height:10rem;
+    }
+}
+.restaurants .card_new{
+    position: relative;
+} 
+.restaurants .card_new::before{
+    content:"Nouveau";
+    position: absolute;
+    height: 2rem;
+    width: 5rem;
+    background-color: #99E2D0;
+    color:#1b6150;
+    display: grid;
+    place-items: center;
+    right:1rem;
+    top:1rem;
+    border-radius: 0.2rem;
+}
+.card_description h3{
+padding: 1rem 0rem 0rem 1rem;
+}
+p{
+    padding: 0rem 1rem 1rem 1rem;
+    } 
+p i {
+    padding:0.2rem;
+    }
+.restaurants .card_description{
+    position: relative;
+    margin-top: -1rem;
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.restaurants .card_description i{
+    font-size: 2rem;
+    position:absolute;
+    right: 1rem;
+    top:1rem;
+}
+
+.heart--absolute {
+    position: absolute;
+    margin-left: 40rem;
+    right: 20px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.heart--absolute:hover {
+    animation: heart 800ms ease forwards;
+    cursor: pointer;
+}
+@keyframes heart {
+    0% {
+    font-weight: 800;
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.1;
+    }
+    100% {
+    font-weight: 800;
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+
+footer{
+    background-color: #353535;
+    padding: 1rem 2rem;
+    color: white;
+}
+footer h2{
+    font-family: "Shrikhand";
+    padding:1rem
+}
+footer p{
+    padding:2px;
+}
+@media (min-width: 768px) {
+    footer {
+    text-align: center;
+    }
+}
